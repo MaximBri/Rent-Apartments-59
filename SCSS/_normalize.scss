@@ -1,0 +1,31 @@
+html, body{
+  font-size: 10px;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  // font-size: calc(100vw / 1920 * 10);
+  // @include M1440px{
+  //   font-size: calc(100vw / 1440 * 10);
+  // }
+  // @include M1024px{
+  //   font-size: calc(100vw / 1024 * 8);
+  // }
+  // @include M768px{
+  //   font-size: calc(100vw / 768 * 10);
+  // }
+  // @include M576px{
+  //   font-size: calc(100vw / 576 * 10);
+  // }
+  // @include M420px{
+  //   font-size: calc(100vw / 420 * 10);
+  // }
+  // @include M360px{
+  //   font-size: calc(100vw / 360 * 10);
+  // }
+}
+.container{
+  margin-inline: 6rem;
+  font-size: 1.6rem;
+  z-index: 50;
+}
+

@@ -1,0 +1,77 @@
+:root {
+  --bg-contact: #2B7AF1;
+  --bg-icons: #fff;
+
+  --slider-helper: 40px;
+  --bg-helper: 750px;
+}
+.btn-type1{
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  padding: 1.5rem 3rem;
+  text-align: center;
+  border-radius: 25px;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-icons);
+  transition: all .4s;
+  box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+  background: linear-gradient(87.14deg, rgb(255, 122, 0) 0.142%,rgb(255, 176, 57) 99.872%);
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+.ah{
+  transition: all .3s;
+  &:hover{
+    color: var(--bg-contact);
+  }
+}
+.hidden{
+  display: none;
+}
+// ------------------BURGER-------------------
+.header__burger {
+  margin-right: 4.2rem;
+  margin-right: 10px;
+  display: none;
+}
+.burger-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.burger-part {
+  background: rgb(17, 17, 17);
+  width: 24px;
+  height: 2px;
+}
+.burger__nav {
+  background-color: var(--bg-contact);
+  position: absolute;
+  top: 3rem;
+  border-radius: 10px;
+  margin-left: 6rem;
+  min-width: 160px;
+  z-index: 50;
+  left: 0;
+}
+.burger__nav-item-content{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 2.2rem;
+  padding: 2rem;
+  border-bottom: 1px solid #fff;
+}
+.bureger__nav__items {
+}
+.burger__nav-item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+// BURGER end----------------//

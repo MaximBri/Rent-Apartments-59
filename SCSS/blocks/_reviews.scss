@@ -1,0 +1,132 @@
+.reviews {
+  background-color: var(--bg-contact);
+  padding: 100px 0 140px;
+  position: relative;
+}
+.reviews__title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 130%;
+  margin-bottom: 40px;
+  z-index: 20;
+}
+.left {
+  position: absolute;
+  z-index: 25;
+  top: calc(50% - 60px);
+  left: -20px;
+}
+.reviews__decore {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  & img{
+    width: 200px;
+    height: 200px;
+  }
+}
+.review__dots{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reviews__slide {
+  margin-inline: 20px;
+}
+.reviews__inner{
+  position: relative;
+}
+.reviews__slide__container {
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 40px;
+}
+.reviews__slide__title {
+  position: absolute;
+  top: var(--slider-helper);
+  left: var(--slider-helper);
+  color: rgb(43, 122, 241);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.reviews__slide__subtitle {
+  position: absolute;
+  top: 40%;
+  left: var(--slider-helper);
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 40px;
+  line-height: 22px;
+}
+.reviews__slide__about {
+  position: absolute;
+  bottom: var(--slider-helper);
+  left: var(--slider-helper);
+}
+.reviews__slide__author {
+  color: rgb(43, 122, 241);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 130%;
+}
+.reviews__slide__adress {
+  color: rgb(17, 17, 17);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.reviews__slide__data {
+  position: absolute;
+  bottom: var(--slider-helper);
+  right: var(--slider-helper);
+  color: rgb(17, 17, 17);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+.reviews__slide__marks {
+  position: absolute;
+  top: var(--slider-helper);
+  right: var(--slider-helper);
+  display: flex;
+  gap: 5px;
+}
+.right {
+  position: absolute;
+  z-index: 25;
+  top: calc(50% - 60px);
+  right: -20px;
+}
+.slick-dots{
+  font-size: 0;
+  gap: 8px;
+}
+.slick-dots li{
+  width: 10px;
+  height: 10px;
+  background-image: url(/Data/reviews/Ellipse\ 3.png);
+  background-repeat: no-repeat;
+}
+.slick-dots button{
+  font-size: 0;
+}
+.review__dots{
+  display: flex;
+  place-items: center;
+}
+.review__dots ul{
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.review__dots .slick-active {
+  width: 20px;
+  background-image: url(/Data/reviews/Rectangle\ 1.png);
+  transition: all .3s;
+}

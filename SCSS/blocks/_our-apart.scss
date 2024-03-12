@@ -1,0 +1,115 @@
+.ourApart {
+  padding: 70px 0 113px 0;
+}
+.OA__name {
+  color: var(--bg-contact);
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 44px;
+  margin-bottom: 40px;
+}
+.OA__container {
+  display: flex;
+  flex-direction: column;
+}
+.OA__container-row1{
+  display: flex;
+}
+.OA__container__item, .OA__container__item2{
+  border-radius: 10px;
+  position: relative;
+  height: 300px;
+  color: var(--bg-icons);
+}
+.OA__container__item:nth-child(1){
+  width: 60%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.OA__container__item:nth-child(2){
+  width: 40%;
+}
+.OA__container__item2:nth-child(1){
+  width: 40%;
+  margin-right: 20px;
+}
+.OA__container__item2:nth-child(2){
+  width: 60%;
+}
+.OA__container__item>img, .OA__container__item2>img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  filter: brightness(50%);
+  z-index: -20;
+}
+.OA__container__item-title {
+  position: absolute;
+  top: 40%;
+  left: 40px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29px;
+}
+.OA__container__item-price {
+  position: absolute;
+  top: 70%;
+  left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.OA__container__item-adress {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  & img{
+    width: 15px;
+    height: 19px;
+  }
+}
+.OA__container__item-btn {
+  position: absolute;
+  bottom: 40px;
+  padding: 8px 20px;
+  right: 20px;
+}
+.OA__container-row2{
+  display: flex;
+  align-items: center;
+}
+.OA__container__inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.OA__container-row__hidden {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.OA__container-row__item {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  align-items: center;
+  & img{
+    max-width: 200px;
+    height: 120px;
+  }
+}
+.OA__container-row__item__title {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 17px;
+  margin: 11px 0 27px;
+}
+.OA__container-row__item__price {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 12px;
+}
