@@ -5,6 +5,19 @@ $('.burger-open').on('click', function () {
   $('.burger__nav').toggleClass('hidden')
 })
 
+$('.callback').on('click', function () {
+  $('.callback-menu').removeClass('unshow')
+  $('.header').addClass('blur'),
+  $('.main').addClass('blur'),
+  $('.footer').addClass('blur')
+})
+$('.free').on('click', function () {
+  $('.callback-menu').addClass('unshow')
+  $('.header').removeClass('blur'),
+  $('.main').removeClass('blur'),
+  $('.footer').removeClass('blur')
+})
+
 
 $('.reviews__slider').slick({
   arrows: false,

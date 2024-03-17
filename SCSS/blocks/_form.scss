@@ -1,9 +1,12 @@
 .form {
-  padding: 100px 0 40px
+  padding: 100px 0 40px;
+  z-index: 100;
 }
 .form__left {
   display: flex;
   flex-direction: column;
+  position: sticky;
+  z-index: 100;
 }
 .form__form {
   max-width: 400px;

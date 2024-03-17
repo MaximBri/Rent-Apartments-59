@@ -10,6 +10,18 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 <body>
+  <section class="unshow callback-menu hidden">
+    <a href="#" class="callback-menu__exit free">
+      <img src="./Data/header/x-black.png" alt="">
+    </a>
+    <h2 class="callback-title callback">Заказать звонок</h2>
+    <h3 class="callback-subtitle">Оставьте заявку и мы свяжемся с Вами в ближайшее время!</h3>
+    <form class="callback-form">
+      <input required type="text" class="callback__form-name" placeholder="Имя">
+      <input required type="tel" class="callback__form-tel" placeholder="Телефон">
+      <button type="submit" class="callback__form-btn btn-type1 free">Отправить</button>
+    </form>
+  </section>
   <header class="header">
     <div class="burger__nav hidden">
       <div class="burger__nav-item" >
@@ -17,9 +29,9 @@
           <img src="./Data/header/х.png" alt="">
         </a>
         <a href="#" class="burger__nav-item-content">Главная</a>
-        <a href="#" class="burger__nav-item-content">Квартиры</a>
-        <a href="#" class="burger__nav-item-content">Контакты</a>
-        <a href="#" class="burger__nav-item-content">О нас</a>
+        <a href="#apart" class="burger__nav-item-content">Квартиры</a>
+        <a href="#contact" class="burger__nav-item-content">Контакты</a>
+        <a href="#about" class="burger__nav-item-content">О нас</a>
       </div>
     </div>
       <div class="container">
@@ -41,13 +53,13 @@
               <a href="#" class="ah header__nav-item-content">
                 Главная
               </a>
-              <a href="#" class="ah header__nav-item-content">
+              <a href="#apart" class="ah header__nav-item-content">
                 Квартиры
               </a>
-              <a href="#" class="ah header__nav-item-content">
+              <a href="#contact" class="ah header__nav-item-content">
                 Контакты
               </a>
-              <a href="#" class="ah header__nav-item-content">
+              <a href="#about" class="ah header__nav-item-content">
                 О нас
               </a>
             </li>
@@ -65,7 +77,7 @@
                 <span class="header__contact-text">+7 (919) 714-25-00</span>
               </a>
             </span>
-            <button type="button" class="header__contact__btn btn-type1">Заказать звонок</button>
+            <button type="button" class="header__contact__btn btn-type1 callback">Заказать звонок</button>
           </div>
           <div class="header__bg"></div>
         </div>
@@ -108,7 +120,7 @@
         </div>
       </div>
     </section>
-    <section class="ourApart">
+    <section class="ourApart" id="apart">
       <div class="container">
         <h2 class="OA__name">Наши квартиры</h2>
         <div class="OA__container">
@@ -195,7 +207,7 @@
   </main>
   <footer class="footer">
     <div class="container">
-      <section class="about">
+      <section class="about" id="about">
         <h3 class="about__title">О нас</h3>
         <div class="about__main">
           <h3 class="about__subtitle">Сегодня «Домашняя гостиница» — одна из крупнейших в Пермском крае гостиничных сетей, динамично расширяющая географический охват и повышающая качество сервиса.</h3>
@@ -225,7 +237,7 @@
         </div>
         <div class="about__shadow"></div>
       </section>
-      <section class="contacts">
+      <section class="contacts" id="contact">
         <div class="contacts__main">
           <h2 class="contacts__title">Контакты</h2>
           <div class="contacts__adress">
@@ -362,11 +374,11 @@
       <div class="container">
         <div class="form-inner">
           <div class="form__left">
-            <form action="" class="form__form">
+            <form class="form__form">
               <h3 class="form__form-text">Напишите нам</h3>
-              <input type="text" class="form__form-name" placeholder="Имя">
-              <input type="text" class="form__form-email" placeholder="Email">
-              <textarea class="form__form-message" placeholder="Ваше сообщение" name="" id="" cols="30" rows="10"></textarea>
+              <input required type="text" class="form__form-name" placeholder="Имя">
+              <input required type="text" class="form__form-email" placeholder="Email">
+              <textarea required class="form__form-message" placeholder="Ваше сообщение" name="" id="" cols="30" rows="10"></textarea>
               <button type="submit" class="form__form-btn btn-type1">Отправить</button>
             </form>
           </div>
@@ -381,9 +393,74 @@
         </div>
       </div>
     </section>
+    <section class="footer-footer">
+      <div class="footer__bg">
+        <img src="./Data/footer/img-main.png" alt="">
+      </div>
+      <div class="container-2">
+        <div class="footer-top">
+            <div class="footer-top__container">
+              <div class="footer__logo">
+                <img src="./Data/logos/main-logo.png" alt="">
+              </div>
+              <div class="footer__menu">
+            </div>
+              <a href="#" class="ah footer__menu__item">Главная</a>
+              <a href="#apart" class="ah footer__menu__item">Квартиры</a>
+              <a href="#contact" class="ah footer__menu__item">Контакты</a>
+              <a href="#about" class="ah footer__menu__item">О нас</a>
+              <div class="footer__menu__links">
+                <a class="footer__menu__link link-mail" href="mailto:mail@yandex.ru">
+                  <img src="./Data/footer/Icon-mail.png" alt="">
+                  <span>mail@yandex.ru</span>
+                </a>
+                <a href="tel:79197142500" class="footer__menu__link">
+                  <img src="./Data/footer/Icon-phone.png" alt="">
+                  <span>+7 (919) 714-25-00</span>
+                </a>
+                <a href="#" class="footer__menu__link">
+                  <img src="./Data/footer/telegramm.png" alt="">
+                </a>
+                <a href="#" class="footer__menu__link">
+                  <img src="./Data/footer/facebook.png" alt="">
+                </a>
+                <a href="#" class="footer__menu__link">
+                  <img src="./Data/footer/vk.png" alt="">
+                </a>
+                <a href="#" class="footer__menu__link">
+                  <img src="./Data/footer/instagramm.png" alt="">
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="footer-btm">
+          <div class="container">
+            <div class="footer__btm__container">
+              <a href="#" class="footer-btm__copy">© Copyright 2021, «Домашняя гостиница»</a>
+              <a href="#" class="footer-btm-license">Пользовательское соглашение</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer__media">
+      <div class="container footer-helper">
+        <div class="footer__media__inner">
+          <div class="footer__media-logo">
+            <img src="./Data/logos/main-logo.png" alt="">
+          </div>
+          <div class="footer__media-links">
+            <a href="#"><img src="./Data/footer/telegramm1.png" alt=""></a>
+            <a href="#"><img src="./Data/footer/facebook1.png" alt=""></a>
+            <a href="#"><img src="./Data/footer/vk1.png" alt=""></a>
+            <a href="#"><img src="./Data/footer/instagramm1.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>'<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>'
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="./JS/main.js"></script>
 </body>
 </html>

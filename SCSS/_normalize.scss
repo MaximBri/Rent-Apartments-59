@@ -24,7 +24,7 @@ html, body{
   // }
 }
 .container{
-  margin-inline: 6rem;
+  margin-inline: var(--container);
   font-size: 1.6rem;
   z-index: 50;
 }

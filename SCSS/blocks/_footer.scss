@@ -1,0 +1,133 @@
+.footer-footer {
+  position: relative;
+  color: var(--bg-icons);
+  overflow: hidden;
+}
+.container2{
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  bottom: 500px;
+}
+.footer-top {
+  padding-inline: var(--container);
+  padding-top: 400px;
+  box-shadow: 0px -51px 16px -12px rgba(0, 0, 0, 0.69) inset;
+}
+.footer__bg{
+  opacity: 0.99;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  filter: brightness(60%);
+  width: 100%;
+  z-index: -40;
+  & img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.footer__btm__container{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__logo {
+  width: 136px;
+  height: 54px;
+}
+.footer__menu {
+  display: flex;
+  gap: 40px;
+}
+.footer__menu__item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.footer__menu__links {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  & a{
+    display: flex;
+    align-items: center;
+    & img{
+      margin-right: 10px;
+    }
+    &:first-child{
+      margin-right: 20px;
+    }
+    &:nth-child(2){
+      margin-right: 53px;
+    }
+  }
+}
+.footer__menu__link {
+}
+.footer-top__container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+}
+.footer-btm {
+  background: rgba(17, 17, 17, 0.8);
+  padding: 21px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-btm__copy {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  position: absolute;
+  left: 60px;
+}
+.footer-btm-license {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.footer__media {
+  width: 100%;
+  padding: 6px 0;
+  display: none;
+  background-color: var(--bg-contact);
+}
+.footer-helper{
+  width: 100%;
+}
+.footer__media__inner{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__media-logo {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px 15px 5px;
+  & img{
+    height: 34px;
+    width: 87px;
+  }
+}
+.footer__media-links {
+  display: flex;
+  gap: 10px;
+}
