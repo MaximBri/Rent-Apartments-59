@@ -553,7 +553,7 @@ html, body {
 .slick-dots li {
   width: 10px;
   height: 10px;
-  background-image: url(/Data/reviews/Ellipse\ 3.png);
+  background-image: url(../../Data/reviews/Ellipse3.png);
   background-repeat: no-repeat;
 }
 
@@ -575,7 +575,7 @@ html, body {
 
 .review__dots .slick-active {
   width: 20px;
-  background-image: url(/Data/reviews/Rectangle\ 1.png);
+  background-image: url(../../Data/reviews/Rectangle1.png);
   transition: all 0.3s;
 }
 

@@ -270,7 +270,7 @@ html, body {
   top: 3px;
   width: 7px;
   height: 7px;
-  background-image: url(/Data/Apart/Ellipse.png);
+  background-image: url(../../Data/Apart/Ellipse.png);
   background-repeat: no-repeat;
 }
 
@@ -316,13 +316,13 @@ html, body {
 }
 .apart__dots > .slick-dots > .slick-active {
   width: 20px;
-  background-image: url(/Data/Apart/dot-active.png);
+  background-image: url(../../Data/Apart/dot-active.png);
   transition: all 0.3s;
 }
 .apart__dots > .slick-dots > li {
   width: 10px;
   height: 10px;
-  background-image: url(/Data/Apart/dot.png);
+  background-image: url(../../Data/Apart/dot.png);
   background-repeat: no-repeat;
 }
 
@@ -706,7 +706,7 @@ html, body {
 .slick-dots li {
   width: 10px;
   height: 10px;
-  background-image: url(/Data/reviews/Ellipse\ 3.png);
+  background-image: url(../../Data/reviews/Ellipse3.png);
   background-repeat: no-repeat;
 }
 
@@ -728,7 +728,7 @@ html, body {
 
 .review__dots .slick-active {
   width: 20px;
-  background-image: url(/Data/reviews/Rectangle\ 1.png);
+  background-image: url(../../Data/reviews/Rectangle1.png);
   transition: all 0.3s;
 }
 
