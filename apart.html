@@ -5,21 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Аренда квартир 59</title>
   <link rel="stylesheet" href="./Css/reset.css">
-  <link rel="stylesheet" href="./SCSS/styles.css">
+  <link rel="stylesheet" href="./SCSS/apartment/style.css">
   <link rel="stylesheet" href="./Css/fonts.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 </head>
 <body>
+  <section class="unshow callback-menu">
+    <a href="#" class="callback-menu__exit free">
+      <img src="./Data/header/x-black.png" alt="">
+    </a>
+    <h2 class="callback-title callback">Заказать звонок</h2>
+    <h3 class="callback-subtitle">Оставьте заявку и мы свяжемся с Вами в ближайшее время!</h3>
+    <form class="callback-form">
+      <input required type="text" class="callback__form-name" placeholder="Имя">
+      <input required type="tel" class="callback__form-tel" placeholder="Телефон">
+      <button type="submit" class="callback__form-btn btn-type1 free">Отправить</button>
+    </form>
+  </section>
   <header class="header">
     <div class="burger__nav hidden">
       <div class="burger__nav-item" >
         <a href="#" class="burger-open">
           <img src="./Data/header/х.png" alt="">
         </a>
-        <a href="#" class="burger__nav-item-content">Главная</a>
-        <a href="#" class="burger__nav-item-content">Квартиры</a>
-        <a href="#" class="burger__nav-item-content">Контакты</a>
-        <a href="#" class="burger__nav-item-content">О нас</a>
+        <a href="./index.html" class="burger__nav-item-content">Главная</a>
+        <a href="./aparts.html" class="burger__nav-item-content">Квартиры</a>
+        <a href="#contact" class="burger__nav-item-content">Контакты</a>
+        <a href="#about" class="burger__nav-item-content">О нас</a>
       </div>
     </div>
       <div class="container">
@@ -32,22 +44,22 @@
                 <span class="burger-part"></span>
               </div>
             </a>
-            <a href="#" class="header__nav-logo">
+            <a href="./index.html" class="header__nav-logo">
               <img src="./Data/logos/main-logo.png" alt="Logo">
             </a>
           </div>
           <ul class="header__nav__items">
             <li class="header__nav-item">
-              <a href="#" class="ah header__nav-item-content">
+              <a href="./index.html" class="ah header__nav-item-content">
                 Главная
               </a>
-              <a href="#" class="ah header__nav-item-content">
+              <a href="./aparts.html" class="ah header__nav-item-content">
                 Квартиры
               </a>
-              <a href="#" class="ah header__nav-item-content">
+              <a href="#contact" class="ah header__nav-item-content">
                 Контакты
               </a>
-              <a href="#" class="ah header__nav-item-content">
+              <a href="#about" class="ah header__nav-item-content">
                 О нас
               </a>
             </li>
@@ -65,15 +77,137 @@
                 <span class="header__contact-text">+7 (919) 714-25-00</span>
               </a>
             </span>
-            <button type="button" class="header__contact__btn btn-type1">Заказать звонок</button>
+            <button type="button" class="header__contact__btn btn-type1 callback">Заказать звонок</button>
           </div>
           <div class="header__bg"></div>
         </div>
       </div>
   </header>
+  <main class="main">
+    <div class="container">
+      <section class="main__inner">
+        <h2 class="main__inner__title">1-к квартира, 31 м², 1/5 эт.</h2>
+        <div class="main__inner__about">
+          <div class="main__inner__about-img">
+            <div class="main__inner__img-main">
+                <a href="./Data/Apart/1.png"><img src="./Data/Apart/1.png" alt=""></a>
+            </div>
+            <div class="apart__helper">
+              <a href="#" class="apart-arrow-space apart-left">
+                <img src="./Data/Apart/arrow-left.png" alt="">
+              </a>
+              <div class="apart__slider">
+                <div class="apart__slide">
+                  <a href="./Data/our-apart/1.png">
+                    <img class="apart__helper-img" src="./Data/our-apart/1.png" alt="">
+                  </a>
+                </div>
+                <div class="apart__slide">
+                  <a href="./Data/our-apart/2.png">
+                    <img class="apart__helper-img" src="./Data/our-apart/2.png" alt="">
+                  </a>
+                </div>
+                <div class="apart__slide">
+                  <a href="./Data/our-apart/3.png">
+                    <img class="apart__helper-img" src="./Data/our-apart/3.png" alt="">
+                  </a>
+                </div>
+                <div class="apart__slide">
+                  <a href="./Data/our-apart/4.png">
+                    <img class="apart__helper-img" src="./Data/our-apart/4.png" alt="">
+                  </a>
+                </div>
+                <div class="apart__slide">
+                  <a href="./Data/our-apart/2.png">
+                    <img class="apart__helper-img" src="./Data/our-apart/2.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <a href="#" class="apart-arrow-space apart-right">
+                <img src="./Data/Apart/arrow-right.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="main__inner__about-texts">
+            <h3 class="main__inner__about-texts-title">Однокомнатная квартира</h3>
+            <h4 class="main__inner__about-texts-subtitle">Сдам 1- квартиру с балконом есть всё необходимое для проживания выписываю ДОКУМЕНТЫ ЧЕК ОНЛАЙН 25+звонить смс не читаю</h4>
+            <h4 class="main__inner__about-texts-price"><strong>1 200 ₽ </strong>за сутки </h4>
+            <div class="main__inner__about-texts__add">
+              <img src="./Data/our-apart/Vector-icon.png" style="width: 15px; height: 19px;" alt="">
+              <h4 class="main__inner__about-texts-adress">Березники, ул. Юбилейная 108</h4>
+            </div>
+            <button class="main__inner__about-texts-btn btn-type1">Забронировать</button>
+          </div>
+        </div>
+        <div class="apart__slider2-container">
+          <div class="apart__slider2 hidden2">
+            <div class="apart__slide2">
+              <a class="apart__slide2-a" href="./Data/Apart/1.png">
+                <img class="apart2__helper-img" src="./Data/Apart/1.png" alt="">
+              </a>
+            </div>
+            <div class="apart__slide2">
+              <a class="apart__slide2-a" href="./Data/our-apart/1.png">
+                <img class="apart2__helper-img" src="./Data/our-apart/1.png" alt="">
+              </a>
+            </div>
+            <div class="apart__slide2">
+              <a class="apart__slide2-a" href="./Data/our-apart/1.png">
+                <img class="apart2__helper-img" src="./Data/our-apart/2.png" alt="">
+              </a>
+            </div>
+            <div class="apart__slide2">
+              <a class="apart__slide2-a" href="./Data/our-apart/1.png">
+                <img class="apart2__helper-img" src="./Data/our-apart/3.png" alt="">
+              </a>
+            </div>
+            <div class="apart__slide2">
+              <a class="apart__slide2-a" href="./Data/our-apart/1.png">
+                <img class="apart2__helper-img" src="./Data/our-apart/4.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="apart__dots hidden2"></div>
+        </div>
+        <div class="main__inner__about-texts2 hidden2">
+          <h3 class="main__inner__about-texts-title">Однокомнатная квартира</h3>
+          <h4 class="main__inner__about-texts-subtitle">Сдам 1- квартиру с балконом есть всё необходимое для проживания выписываю ДОКУМЕНТЫ ЧЕК ОНЛАЙН 25+звонить смс не читаю</h4>
+          <h4 class="main__inner__about-texts-price"><strong>1 200 ₽ </strong>за сутки </h4>
+          <div class="main__inner__about-texts__add">
+            <img src="./Data/our-apart/Vector-icon.png" style="width: 15px; height: 19px;" alt="">
+            <h4 class="main__inner__about-texts-adress">Березники, ул. Юбилейная 108</h4>
+          </div>
+          <button class="main__inner__about-texts-btn btn-type1">Забронировать</button>
+        </div>
+      </section>
+      <section class="main__plus">
+        <h3 class="plus__title">Оснащение:</h3>
+        <div class="plus__container">
+          <h4 class="plus__container__item">Холодильник</h4>
+          <h4 class="plus__container__item">Стиральная машина</h4>
+          <h4 class="plus__container__item">СВЧ</h4>
+          <h4 class="plus__container__item">Телевизор плазма</h4>
+          <h4 class="plus__container__item">Цифровое телевидение</h4>
+          <h4 class="plus__container__item">Сушка</h4>
+          <h4 class="plus__container__item">Балкон</h4>
+          <h4 class="plus__container__item">Домофон</h4>
+          <h4 class="plus__container__item">Wi -fi</h4>
+          <h4 class="plus__container__item">Вся посуда</h4>
+          <h4 class="plus__container__item">Два комплекта полотенец</h4>
+          <h4 class="plus__container__item">Всегда качественное постельное белье</h4>
+          <h4 class="plus__container__item">Большой, комфортный раздвижной диван</h4>
+          <h4 class="plus__container__item">Спальное место 1600х2000 (1 спальное место, размещение до 2-х человек, возможно докомплектация раскладушкой или большим надувным матрацем).</h4>
+        </div>
+        <div class="plus__withLove">
+          <h3 class="plus__withLove__text">Все сделано с любовью для Вас!</h3>
+          <a href="./aparts.html" class="plus__withLove-btn btn-type1">Смотреть все квартиры</a>
+        </div>
+      </section>
+    </div>
+  </main>
   <footer class="footer">
     <div class="container">
-      <section class="about">
+      <section class="about" id="about">
         <h3 class="about__title">О нас</h3>
         <div class="about__main">
           <h3 class="about__subtitle">Сегодня «Домашняя гостиница» — одна из крупнейших в Пермском крае гостиничных сетей, динамично расширяющая географический охват и повышающая качество сервиса.</h3>
@@ -103,7 +237,7 @@
         </div>
         <div class="about__shadow"></div>
       </section>
-      <section class="contacts">
+      <section class="contacts" id="contact">
         <div class="contacts__main">
           <h2 class="contacts__title">Контакты</h2>
           <div class="contacts__adress">
@@ -240,11 +374,11 @@
       <div class="container">
         <div class="form-inner">
           <div class="form__left">
-            <form action="" class="form__form">
+            <form class="form__form">
               <h3 class="form__form-text">Напишите нам</h3>
-              <input type="text" class="form__form-name" placeholder="Имя">
-              <input type="text" class="form__form-email" placeholder="Email">
-              <textarea class="form__form-message" placeholder="Ваше сообщение" name="" id="" cols="30" rows="10"></textarea>
+              <input required type="text" class="form__form-name" placeholder="Имя">
+              <input required type="text" class="form__form-email" placeholder="Email">
+              <textarea required class="form__form-message" placeholder="Ваше сообщение" name="" id="" cols="30" rows="10"></textarea>
               <button type="submit" class="form__form-btn btn-type1">Отправить</button>
             </form>
           </div>
@@ -267,14 +401,14 @@
         <div class="footer-top">
             <div class="footer-top__container">
               <div class="footer__logo">
-                <img src="./Data/logos/main-logo.png" alt="">
+                <a href="./index.html"><img src="./Data/logos/main-logo.png" alt=""></a>
               </div>
               <div class="footer__menu">
             </div>
-              <a href="#" class="footer__menu__item">Главная</a>
-              <a href="#" class="footer__menu__item">Квартиры</a>
-              <a href="#" class="footer__menu__item">Контакты</a>
-              <a href="#" class="footer__menu__item">О нас</a>
+              <a href="./index.html" class="ah footer__menu__item">Главная</a>
+              <a href="./aparts.html" class="ah footer__menu__item">Квартиры</a>
+              <a href="#contact" class="ah footer__menu__item">Контакты</a>
+              <a href="#about" class="ah footer__menu__item">О нас</a>
               <div class="footer__menu__links">
                 <a class="footer__menu__link link-mail" href="mailto:mail@yandex.ru">
                   <img src="./Data/footer/Icon-mail.png" alt="">
@@ -302,8 +436,8 @@
         <div class="footer-btm">
           <div class="container">
             <div class="footer__btm__container">
-              <h3 class="footer-btm__copy">© Copyright 2021, «Домашняя гостиница»</h3>
-              <h3 class="footer-btm-license">Пользовательское соглашение</h3>
+              <a href="#" class="footer-btm__copy">© Copyright 2021, «Домашняя гостиница»</a>
+              <a href="#" class="footer-btm-license">Пользовательское соглашение</a>
             </div>
           </div>
         </div>
@@ -325,7 +459,7 @@
       </div>
     </section>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="./JS/main.js"></script>
 </body>

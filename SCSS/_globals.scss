@@ -39,6 +39,13 @@ html, body{
 }
 .hidden{
   display: none;
+  visibility: hidden;
+}
+.hidden2{
+  width: 0;
+  height: 0;
+  display: none;
+  visibility: hidden;
 }
 .unshow{
   visibility: hidden;
