@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
-  url(../fonts/Montserrat-Regular.woff2) format(woff2);
+  url(../Fonts/Montserrat-Regular.woff2) format(woff2);
   font-weight: 400;
 }
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
-  url(../fonts/Montserrat-Bold.woff2) format(woff2);
+  url(../Fonts/Montserrat-Bold.woff2) format(woff2);
   font-weight: 700;
 }
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
-  url(../fonts/Montserrat-Black.woff2) format(woff2);
+  url(../Fonts/Montserrat-Black.woff2) format(woff2);
   font-weight: 900;
 }
